@@ -13,3 +13,5 @@ jobs:
       - name: run init
         run: terraform init
     
+      - name: run plan
+        run: terraform plan
